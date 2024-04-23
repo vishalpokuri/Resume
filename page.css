@@ -1,0 +1,184 @@
+body {
+  width: 100vh;
+  height: 170vh;
+  margin: auto;
+  border: 2px solid black;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu {
+  width: 36vh;
+  height: 100%;
+  background-color: #2a2e36;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  width: 64vh;
+  height: 100%;
+}
+
+.frame {
+  display: grid;
+  place-items: center;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+  overflow: hidden;
+}
+.frame img {
+  width: 90%;
+  height: 90%;
+}
+
+.userinfo--container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20px;
+  margin: 15px;
+  align-items: center;
+}
+
+.vector-cont {
+  background-color: #f4d644;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+}
+
+.detail-cont {
+  margin-left: 20px;
+  color: white;
+}
+
+.userinfo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.education,
+.expertise,
+.language {
+  margin-left: 15%;
+  color: white;
+}
+.education h3,
+.expertise h3,
+.language h3 {
+  font-size: x-large;
+  border-bottom: 2px solid #f4d644;
+}
+.education--college {
+  margin-bottom: 20px;
+}
+
+.course {
+  font-size: 15px;
+  font-weight: 600;
+}
+.college {
+  font-size: 14px;
+  font-weight: 400;
+}
+.year {
+  font-size: 12px;
+  font-weight: 300;
+}
+.content {
+  overflow: hidden;
+}
+
+.main_name {
+  background: #f4d644;
+  width: 600px;
+
+  position: relative;
+  z-index: 1;
+  top: 70px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 40px;
+  font-weight: 600;
+}
+.main_name--positioner {
+  padding-left: 50px;
+  padding-top: 25px;
+  height: 120px;
+}
+
+.experience {
+  box-sizing: border-box;
+  width: 100%;
+  height: 690px;
+  padding-left: 30px;
+  margin-top: 120px;
+}
+
+.reference {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  padding-left: 30px;
+}
+
+.experience h3,
+.reference h3 {
+  border-bottom: 2px solid #f4d644;
+
+  font-weight: 620;
+}
+.experience ul {
+  list-style-type: disc;
+}
+ul li {
+  color: black;
+}
+
+.list-item {
+  font-size: 12px;
+  width: 90%;
+  text-align: justify;
+}
+
+.time,
+.company {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+}
+.position {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reference-contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.reference-contacts--element {
+  margin: 0 40px 20px 20px;
+}
+.reference-contacts--element_name {
+  font-size: 25px;
+}
+
+.reference-contacts--element_comp {
+  font-size: 15px;
+}
+.reference-contacts--element_phone {
+  font-size: 12px;
+}
+.reference-contacts--element_email {
+  font-size: 12px;
+}
